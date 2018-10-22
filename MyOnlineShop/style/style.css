@@ -1,0 +1,550 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+    background: skyblue;
+}
+
+li{
+    padding: 3px;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.header{
+    width: 1000px;
+    height: 100px;
+    background: white;
+    margin: auto;
+}
+
+#logo{
+    float: left;
+}
+
+#banner{
+    float: right;
+}
+
+.menubar{
+    width: 1000px;
+    height: 50px;
+}
+
+#menu{
+    line-height: 50px;
+}
+
+#menu li{
+    list-style: none;
+    display: inline;
+}
+
+.menuinfo{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+#menu a:hover{
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#content{
+    width: 1000px;
+    height: auto;
+}
+
+.sidebar{
+    width: 200px;
+    height: auto;
+    color: white;
+    float: left;
+}
+
+#activity_title{
+    font-size: 18px;
+    padding: 10px;
+}
+
+#activity{
+    padding: 10px;
+}
+
+#activity li{ 
+    list-style: none;
+}
+
+#activity a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-align: left;
+}
+
+#activity a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sidecontent{
+    width: 800px;
+    height: auto;
+    color: black;
+    float: right;
+}
+
+#ad_rule{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#ad_rule_desc{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#ad_options{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.single_option{
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    max-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    float: left;
+    border: 1px, solid, red;
+}
+
+.footer{
+    width: 1000px;
+    height: 50px;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+table{
+    border: 1px solid black;
+}
+
+#login_right{
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 40px;
+    border: 1px, solid, red;
+}
+
+#login_left_fullfill{
+}
+
+#login_right_fullfill{
+    float: right;
+}
+
+.erroroinfo{
+    color: red;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.sucessinfo{
+    color: green;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#looping_image{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+#looping_image_title{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form_name{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.form_input{
+    width: 300px;
+    height: 25px;
+    padding: 8px;
+    margin: 15px;
+    border-radius:4px;
+}
+
+#submit_button{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    background: #0096D6;
+    border-radius:4px;
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#submit_button:hover{
+    background: orange;
+}
+
+.forget_password_button{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    background: #0096D6;
+    border-radius:4px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.forget_password_button:hover{
+    background: red;
+}
+
+#front_end_error{
+    text-decoration: none;
+    color: red;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#login_title{
+    text-decoration: none;
+    color: #0096D6;
+    padding: 8px;
+    margin: 5px;
+    font-size: 22px;
+}
+
+.form_fill_name{
+    text-decoration: none;
+    color: #0096D6;
+    padding: 4px;
+    margin: 2.5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form_fill_input{
+    width: 450px;
+    height: 20px;
+    border-radius:4px;
+}
+
+#form_fill_title{
+    text-decoration: none;
+    color: #0096D6;
+    padding: 4px;
+    margin: 2.5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form_fill_p{
+    text-decoration: none;
+    color: red;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+#table_cart{
+    width: 950px;
+    padding: 8px;
+    margin: 15px;
+}
+
+#cart_place_order{
+    text-decoration: none;
+    color: #0096D6;
+    font-size: 22px;
+    float: right;
+}
+
+tr{
+    text-align: left;
+    color: white;
+}
+
+th{
+    text-align: left;
+    color: white;
+}
+
+#cart_title{
+    text-decoration: none;
+    color: #0096D6;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.table_order{
+    width: 950px;
+    padding: 8px;
+    margin: 15px;
+}
+
+.order_title{
+    text-decoration: none;
+    color: #0096D6;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#delete_order{
+    float: right;
+    color: #0096D6;
+    font-size: 15px;
+}
+
+#placeholder{
+    width: 950px;
+    height: 50px;
+}
+
+#ad_options_list{
+    display: table;
+}
+
+#extrainfo_title{
+    text-decoration: none;
+    color: #0096D6;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+#input_info{
+    width: 500px;
+    height: 100px;
+    padding: 8px;
+    margin: 5px;
+}
+
+#friendorder_title_p{
+    color: #0096D6;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#friendorder_content_table{
+    width: 950px;
+    padding: 8px;
+    margin: 15px;
+}
+
+#friendorder_total_p{
+    color: #0096D6;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#textarea_extrainfo{
+    width: 600px;
+    height: 100px;
+    padding: 8px;
+    margin: 15px;
+}
+
+#order_button{
+    width: 100px;
+    height: 30px;
+    background: #0096D6;
+    margin: 15px;
+    border-radius:4px;
+    color: white;
+    font-weight: bold;
+}
+
+#order_button:hover{
+    background: orange;
+}
+
+.singleamout{
+    width: 50px;
+}
+
+#extrainfo_title_intro{
+    color: red;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+#order_extra_info{
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+#no_orders{
+    text-decoration: none;
+    color: red;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+#order_list_contianer{
+    padding: 8px;
+    margin: 5px;
+}
+
+#order_list_contianer_title_p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0096D6;
+    padding: 8px;
+    margin: 5px;
+}
+
+.red_dot{
+    color: red;
+}
+
+.green_dot{
+    color: green;
+}
+
+#grey_dot{
+    color: grey;
+}
+
+#cart_total{
+    text-decoration: none;
+    color: #0096D6;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.minus_plus_link{
+    text-decoration: none;
+    color: #0096D6;
+}
+
+#info_for_your_eyes_only{
+    text-decoration: none;
+    color: #0096D6;
+    padding: 4px;
+    margin: 2.5px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#activity_details{
+    padding: 8px;
+    margin: 5px;
+}
+
+#activity_details_title{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+}
+
+#iframe_pdf{
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+    height: 600px;
+    border: 2px groove #0096D6;
+}
+
+#extrainfo_content{
+    width: 950px;
+    padding: 8px;
+    margin: 15px;
+}
+
+#extrainfo_title{
+    text-decoration: none;
+    color: #0096D6;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
